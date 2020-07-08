@@ -1,14 +1,7 @@
-source 'https://github.com/CocoaPods/Specs.git'
-
-target 'MWPhotoBrowser_Example', :exclusive => true do
+target 'MWPhotoBrowser_Example' do
+  platform :ios, '9.0'
+  
+  pod 'SDWebImage','5.0.0'
   pod "MWPhotoBrowser", :path => "../"
 end
 
-target 'MWPhotoBrowser_Tests', :exclusive => true do
-  pod "MWPhotoBrowser", :path => "../"
-
-  pod 'Specta'
-  pod 'Expecta'
-  pod 'FBSnapshotTestCase'
-  pod 'Expecta+Snapshots'
-end
