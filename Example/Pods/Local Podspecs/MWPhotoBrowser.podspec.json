@@ -22,7 +22,7 @@
     "tag": "2.1.2"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "7.0"
   },
   "source_files": "Pod/Classes/**/*",
   "resource_bundles": {

@@ -1320,30 +1320,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10E8CB7C0E89D222FC2B521EFBBE8E18 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B43827E7B6A400A46E1F0B3833BE3963 /* MWPhotoBrowser.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MWPhotoBrowser/MWPhotoBrowser-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = MWPhotoBrowser;
-				PRODUCT_NAME = MWPhotoBrowser;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		112A618A7B40CF2894A6B9928D3B4911 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 090D060D24F1CBECFD842ADAC1616986 /* MBProgressHUD.release.xcconfig */;
@@ -1368,29 +1344,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		131BE206CDED00F6B9B6A69E06A1B76F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DA5C11B7AA0531E2ADEE27F17CC5BF0 /* MWPhotoBrowser.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MWPhotoBrowser/MWPhotoBrowser-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = MWPhotoBrowser;
-				PRODUCT_NAME = MWPhotoBrowser;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		169D21923C81D36BAB6079587D24C6AC /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1437,6 +1390,47 @@
 			};
 			name = Release;
 		};
+		39B354DF337FDF983B5A0927A5530162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B43827E7B6A400A46E1F0B3833BE3963 /* MWPhotoBrowser.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MWPhotoBrowser/MWPhotoBrowser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MWPhotoBrowser;
+				PRODUCT_NAME = MWPhotoBrowser;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41EA8338C942A1CD30493DB049FE8C5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B43827E7B6A400A46E1F0B3833BE3963 /* MWPhotoBrowser.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MWPhotoBrowser";
+				IBSC_MODULE = MWPhotoBrowser;
+				INFOPLIST_FILE = "Target Support Files/MWPhotoBrowser/ResourceBundle-MWPhotoBrowser-MWPhotoBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = MWPhotoBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		6887A8F6D0E2F7E4778244AC5B540782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AEC5E9A384A787C340359D41DDCAE18 /* MBProgressHUD.debug.xcconfig */;
@@ -1461,22 +1455,22 @@
 			};
 			name = Debug;
 		};
-		71A11B8A69DD425EC80A9FDAE7514491 /* Release */ = {
+		68BF904CF5BBC925B36655E6334862B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B43827E7B6A400A46E1F0B3833BE3963 /* MWPhotoBrowser.release.xcconfig */;
+			baseConfigurationReference = 7DA5C11B7AA0531E2ADEE27F17CC5BF0 /* MWPhotoBrowser.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MWPhotoBrowser";
 				IBSC_MODULE = MWPhotoBrowser;
 				INFOPLIST_FILE = "Target Support Files/MWPhotoBrowser/ResourceBundle-MWPhotoBrowser-MWPhotoBrowser-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = MWPhotoBrowser;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1537,6 +1531,29 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		90C3A77537E0007F03F77C4846576C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DA5C11B7AA0531E2ADEE27F17CC5BF0 /* MWPhotoBrowser.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MWPhotoBrowser/MWPhotoBrowser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MWPhotoBrowser;
+				PRODUCT_NAME = MWPhotoBrowser;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		916E0404255105F480DC4950B7625F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1694,23 +1711,6 @@
 			};
 			name = Debug;
 		};
-		E236923827C1F0045C1C6318DFCF62CB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DA5C11B7AA0531E2ADEE27F17CC5BF0 /* MWPhotoBrowser.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MWPhotoBrowser";
-				IBSC_MODULE = MWPhotoBrowser;
-				INFOPLIST_FILE = "Target Support Files/MWPhotoBrowser/ResourceBundle-MWPhotoBrowser-MWPhotoBrowser-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = MWPhotoBrowser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1744,8 +1744,8 @@
 		8E7F9BA90CAA87C8A9D299566E42D0EC /* Build configuration list for PBXNativeTarget "MWPhotoBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				131BE206CDED00F6B9B6A69E06A1B76F /* Debug */,
-				10E8CB7C0E89D222FC2B521EFBBE8E18 /* Release */,
+				90C3A77537E0007F03F77C4846576C3B /* Debug */,
+				39B354DF337FDF983B5A0927A5530162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1762,8 +1762,8 @@
 		CF774B237879DB52CBBDEE8B257ADD34 /* Build configuration list for PBXNativeTarget "MWPhotoBrowser-MWPhotoBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E236923827C1F0045C1C6318DFCF62CB /* Debug */,
-				71A11B8A69DD425EC80A9FDAE7514491 /* Release */,
+				68BF904CF5BBC925B36655E6334862B1 /* Debug */,
+				41EA8338C942A1CD30493DB049FE8C5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

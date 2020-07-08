@@ -13,10 +13,9 @@ DEPENDENCIES:
   - SDWebImage (= 5.0.0)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - DACircularProgress
     - MBProgressHUD
-  trunk:
     - SDWebImage
 
 EXTERNAL SOURCES:
@@ -26,7 +25,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
-  MWPhotoBrowser: c45bd0f8f38a6881b97e48c7b640af1306c5a38c
+  MWPhotoBrowser: 890c78b5ec701ca9d29c39d5fa21b137b4737503
   SDWebImage: 5de80a0302de9e377e62f47d2fa1304efff0e55f
 
 PODFILE CHECKSUM: 5f6d99df33ab909ec11c2d90d8e70f295c2519ee
